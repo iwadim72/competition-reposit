@@ -1,0 +1,12 @@
+.bicycles__style {
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(229, 229, 229, 0.7);
+}
+
+.bicycles__style:last-of-type {
+    margin: 0;
+}
