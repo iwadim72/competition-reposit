@@ -1,9 +1,13 @@
-.bicycles {}
+.bicycles {
+    width: 83.333%;
+    margin: 0 auto 0;
+}
 
 .bicycles__container {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-top: 60px;
 }
 
 .bicycles__title {
@@ -16,9 +20,7 @@
 
 }
 
-.bicycles__styles {
-    margin-right: 8.334%;
-}
+.bicycles__styles {}
 
 .bicycles__style {
     margin-right: 40px;
@@ -37,10 +39,27 @@
     color: #FFFFFF;
 }
 
-.bicycles__list {}
+.bicycles__list {
+    list-style: none;
+    display: flex;
+    margin: 120px 0 0 0;
+    padding: 0;
+}
 
-.bicycles__list-item {}
+.bicycles__list-item {
+    margin-right: 30px;
+}
 
-.bicycles__photo {}
+.bicycles__photo {
+    padding: 20px;
+    background: #F4F4F4;
+    box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+    border-radius: 20px;
+}
 
-.bicycles__name {}
+.bicycles__name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 22px 0 60px;
+}
