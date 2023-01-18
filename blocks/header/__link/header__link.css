@@ -1,0 +1,12 @@
+.header__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 34px 0 0;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header__link:last-of-type {
+    margin: 0;
+}

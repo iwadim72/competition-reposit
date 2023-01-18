@@ -1,0 +1,6 @@
+.intro__info-container {
+    max-width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
