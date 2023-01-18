@@ -1,0 +1,6 @@
+.bicycles__list {
+    list-style: none;
+    display: flex;
+    margin: 116px 0 0 0;
+    padding: 0;
+}

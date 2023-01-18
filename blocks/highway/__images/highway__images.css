@@ -1,4 +1,30 @@
 .highway__images {
     display: flex;
+    position: relative;
     margin: 80px 0 0 0;
+}
+
+.highway__images:first-of-type::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 16px;
+    width: 100px;
+    height: 40px;
+    background-image: url(../../../images/highway.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.highway__images:first-of-type::before {
+    content: '';
+    position: absolute;
+    left: 16px;
+    bottom: 28px;
+    width: 50px;
+    height: 16px;
+    background-image: url(../../../images/highway-line.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
 }

@@ -4,4 +4,6 @@
     position: fixed;
     z-index: 2;
 		background-color: rgba(51, 51, 51, 0.9);
+		display: flex;
+		justify-content: flex-end;
 }
