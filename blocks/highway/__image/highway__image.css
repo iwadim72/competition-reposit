@@ -1,0 +1,17 @@
+.highway__image {
+    width: 650px;
+    height: 400px;
+}
+
+.highway__image:first-of-type {
+    margin-right: 40px;
+}
+
+.highway__image:first-of-type::after {
+    position: absolute;
+    left: 0;
+    bottom: 16px;
+    width: 100px;
+    height: 40px;
+    background-image: url(../images/highway.svg);
+}

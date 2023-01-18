@@ -1,0 +1,20 @@
+.highway__button {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #434343;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../../../images/button-left.svg);
+}
+
+.highway__button_switch_left {
+    margin-right: 20px;
+}
+
+.highway__button_switch_right {
+    transform: rotate(-180deg);
+}

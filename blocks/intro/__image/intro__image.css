@@ -1,5 +1,5 @@
 .intro__image {
     max-width: 650px;
     object-fit: cover;
-    margin: 0 80px 0 120px;
+    margin: 0 80px 0 0;
 }
