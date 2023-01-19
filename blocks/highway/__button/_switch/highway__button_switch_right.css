@@ -1,0 +1,16 @@
+.highway__button_switch_right {
+    transform: rotate(-180deg);
+}
+
+@media screen and (max-width: 768px) {
+    .highway__button_switch_right {
+        right: 0;
+        top: 87px
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .highway__button_switch_right {
+        right: 0;
+    }
+}

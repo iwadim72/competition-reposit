@@ -1,0 +1,17 @@
+.highway__button_switch_left {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .highway__button_switch_left {
+        right: 60px;
+        top: 87px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .highway__button_switch_left {
+        right: 34px;
+    }
+}

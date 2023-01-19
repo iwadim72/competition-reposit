@@ -1,5 +1,31 @@
 .highway {
 	margin: 0 0 0 auto;
 	padding-top: 60px;
-	width: 1320px;
+	width: 91.666vw;
+	overflow: hidden;
+}
+
+@media screen and (min-width: 1440px) {
+	.highway {
+		width: 1320px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.highway {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		margin: 0 auto 0;
+		padding-top: 80px;
+	}
+
+	.highway::before {
+		content: '';
+		position: absolute;
+		top: 40px;
+		width: 100%;
+		border-bottom: 1px solid #E3E3E3;
+	}
 }
