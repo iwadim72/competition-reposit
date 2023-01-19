@@ -1,8 +1,27 @@
 .highway__image {
-    width: 650px;
-    height: 400px;
+    width: 45.138vw;
 }
 
 .highway__image:first-of-type {
     margin-right: 40px;
+}
+
+@media screen and (min-width: 1440px) {
+    .highway__image {
+        width: 650px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .highway__image:last-of-type {
+        display: none;
+    }
+
+    .highway__image {
+        width: 100%;
+    }
+
+    .highway__image:first-of-type {
+        margin-right: 0;
+    }
 }

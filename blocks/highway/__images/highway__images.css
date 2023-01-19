@@ -28,3 +28,25 @@
     background-position: center;
     z-index: 1;
 }
+
+@media screen and (max-width: 768px) {
+    .highway__images {
+        order: 2;
+        margin-top: 40px;
+    }
+
+    .highway__images:first-of-type::after {
+        width: 70px;
+        height: 28px;
+        bottom: 14px;
+        background-size: 100%;
+    }
+
+    .highway__images:first-of-type::before {
+        width: 35px;
+        height: 12px;
+        background-size: 100%;
+        left: 11px;
+        bottom: 22px;
+    }
+}

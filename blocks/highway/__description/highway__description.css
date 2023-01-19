@@ -6,3 +6,17 @@
     line-height: 28px;
     color: rgba(229, 229, 229, 0.7)
 }
+
+@media screen and (max-width: 768px) {
+    .highway__description {
+        order: 3;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .highway__description {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 40px;
+    }
+}
