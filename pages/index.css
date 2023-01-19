@@ -12,6 +12,7 @@
 @import url(../blocks/intro/__info/intro__info.css);
 @import url(../blocks/intro/__author/intro__author.css);
 @import url(../blocks/intro/__author-description/intro__author-description.css);
+@import url(../blocks/highway/highway.css);
 @import url(../blocks/highway/__title/highway__title.css);
 @import url(../blocks/highway/__description/highway__description.css);
 @import url(../blocks/highway/__images/highway__images.css);
