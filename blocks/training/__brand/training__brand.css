@@ -1,0 +1,19 @@
+.training__brand {
+	margin: 0 30px 0 0;
+	padding: 0;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
+	color: #fff;
+	text-decoration: none;
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+.training__brand:hover {
+	opacity: 0.65
+}
+
+.training__brand:last-of-type {
+	margin-right: 0;
+}

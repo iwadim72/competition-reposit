@@ -1,0 +1,11 @@
+.training {
+	width: 83.3333%;
+	margin: 0 auto 120px auto;
+	display: flex;
+}
+
+@media screen and (min-width: 1440px) {
+	.training {
+		width: 1200px;
+	}
+}
