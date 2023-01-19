@@ -1,0 +1,21 @@
+.lead__caption {
+	margin: 0 0 0 0;
+	padding: 0;
+	position: relative;
+}
+
+.lead__caption::after {
+	content: '';
+	width: 132px;
+	height: 2px;
+	background-color: #707070;
+	position: absolute;
+	top: 9px;
+	left: 214px;
+}
+
+@media screen and (max-width: 576px) {
+	.lead__caption,.lead__caption::after {
+		display: none;
+	}
+}

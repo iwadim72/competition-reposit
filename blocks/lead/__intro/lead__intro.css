@@ -1,0 +1,7 @@
+.lead__intro {
+	margin-bottom: 167px;
+	display: flex;
+	flex-direction: column;
+	min-height: 212px;
+	align-self: flex-start;
+}

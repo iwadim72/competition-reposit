@@ -8,3 +8,21 @@
 		width: 1200px;
 	}
 }
+
+@media screen and (max-width: 1280px) {
+	.footer__container {
+		width: 86%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.footer__container {
+		width: 88%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.footer__container {
+		width: 88.75%;
+	}
+}

@@ -1,6 +1,7 @@
 .content {
 	width: 83.3333%;
 	margin: 0 auto;
+	position: relative;
 }
 
 @media screen and (min-width: 1440px) {

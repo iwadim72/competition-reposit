@@ -1,0 +1,15 @@
+.lead__sticky-container {
+	width: 440px;
+	height: 430px;
+	position: absolute;
+	top: 419px;
+	right: 25.69vw;
+	left: 35.41vw;
+}
+
+@media screen and (min-width: 1440px) {
+	.lead__sticky-container {
+		right: 370px;
+		left: 510px
+	}
+}

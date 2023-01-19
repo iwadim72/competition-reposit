@@ -1,0 +1,31 @@
+.lead__more {
+	margin: 0;
+	padding: 0;
+	width: 180px;
+	height: 50px;
+	background-color: #24B47E;
+	border-radius: 4px;
+	border: none;
+	color: #FFFFFF;
+	transition: background-color 1s ease;
+	position: relative;
+	display: flex;
+}
+
+.lead__more:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #319E75;
+	;
+	height: 100%;
+	width: 0;
+	border-radius: 4px;
+	transition: all 2s ease;
+	z-index: 2;
+}
+
+.lead__more:hover:before {
+	width: 100%;
+}

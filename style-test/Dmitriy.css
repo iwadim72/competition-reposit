@@ -1,159 +1,22 @@
-.lead {
-	margin: 0 0 0 auto;
-	padding-top: 74px;
-	width: 88.8888%;
-	display: flex;
-	position: relative;
-}
-
-@media screen and (min-width: 1440px) {
-	.lead {
-		width: 1200px;
-		margin-left: 120px;
-	}
-}
-
-.lead__info {
-	min-height: 567px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	margin-right: 17.36vw;
-}
-
-@media screen and (min-width: 1440px) {
-	.lead__info {
-		margin-right: 250px;
-	}
-}
 
 
-.lead__main {
-	margin-top: 80px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	min-height: 382px;
-}
-
-.lead__heading {
-	margin: 0;
-	padding: 0;
-	font-weight: 700;
-	font-size: 55px;
-	line-height: 60px;
-	letter-spacing: -0.5px;
-	width: 460px;
-}
-
-.lead__text {
-	margin: 0;
-	padding: 0;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 28px;
-	color: #E6E6E6;
-	opacity: 0.7;
-	width: 460px;
-}
-
-.lead__more {
-	margin: 0;
-	padding: 0;
-	width: 180px;
-	height: 50px;
-	background-color: #24B47E;
-	border-radius: 4px;
-	border: none;
-	color: #FFFFFF;
-	transition: background-color 1s ease;
-	position: relative;
-	display: flex;
-}
-
-.lead__more:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-color: #319E75;;
-	height: 100%;
-	width: 0;
-	border-radius: 4px;
-	transition: all 2s ease;
-	z-index: 2;
-}
-
-.lead__more:hover:before {
-	width: 100%;
-}
-
-.lead__link{
-	color: #FFFFFF;
-	text-decoration: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	z-index: 3;
-}
-
-.lead__caption {
-	margin: 0 0 209px 0;
-	padding: 0;
-	position: relative;
-}
-
-.lead__caption::after {
-	content: '';
-	width: 132px;
-	height: 2px;
-	background-color: #707070;
-	position: absolute;
-	top: 9px;
-	left: 214px;
-}
 
 
-.lead__sticky-container {
-	width: 440px;
-	height: 430px;
-	position: absolute;
-	top: 419px;
-	right: 25.69vw;
-	left: 35.41vw;
-}
 
-@media screen and (min-width: 1440px) {
-	.lead__sticky-container {
-		right: 370px;
-		left: 510px
-	}
-}
 
-.lead__sticky-image {
-	position: sticky;
-	top: 0;
-	padding: 20px 50px;
-	object-fit: contain;
-	object-position: center;
-	width: 340px;
-	background: #F4F4F4;
-	box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
-	border-radius: 20px;
-}
 
-@media screen and (min-width: 1440px) {
-	.lead__sticky-image {
-		width: 340px;
-	}
-}
 
-.lead__image {
-	object-fit: contain;
-	object-position: bottom right;
-	margin-top: 20px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

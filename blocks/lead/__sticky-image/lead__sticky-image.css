@@ -1,0 +1,17 @@
+.lead__sticky-image {
+	position: sticky;
+	top: 0;
+	padding: 20px 50px;
+	object-fit: contain;
+	object-position: center;
+	width: 340px;
+	background: #F4F4F4;
+	box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+	border-radius: 20px;
+}
+
+@media screen and (min-width: 1440px) {
+	.lead__sticky-image {
+		width: 340px;
+	}
+}

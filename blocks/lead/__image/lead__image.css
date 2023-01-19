@@ -1,0 +1,21 @@
+.lead__image {
+	object-fit: contain;
+	object-position: center;
+	width: 42.361vw;
+}
+
+@media screen and (min-width:1440px) {
+	.lead__image {
+		width: 610px;
+	}
+}
+
+@media screen and (max-width:576px) {
+	.lead__image {
+		position: absolute;
+		top: 120px;
+		right: 0;
+		z-index: -1;
+		width: 79.375vw;
+	}
+}
