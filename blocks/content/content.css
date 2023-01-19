@@ -1,10 +1,28 @@
 .content {
-		width: 83.3333%;
-		margin: 0 auto;
+	width: 83.3333%;
+	margin: 0 auto;
 }
 
 @media screen and (min-width: 1440px) {
-	.content{
+	.content {
 		width: 1440px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.content {
+		width: 86%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.content {
+		width: 88%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.content {
+		width: 88.75%;
 	}
 }
