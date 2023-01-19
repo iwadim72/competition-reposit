@@ -1,0 +1,8 @@
+.bicycles__switch {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    margin-right: 5px;
+}

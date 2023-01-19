@@ -16,3 +16,16 @@
 .bicycles__style:last-of-type {
 	margin: 0;
 }
+
+@media screen and (max-width:768px) {
+	.bicycles__style {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
+@media screen and (max-width:576px) {
+	.bicycles__style {
+		display: none;
+	}
+}

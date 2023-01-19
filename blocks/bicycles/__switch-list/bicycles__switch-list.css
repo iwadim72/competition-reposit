@@ -1,0 +1,14 @@
+.bicycles__switch-list {
+    list-style: none;
+    margin: 20px auto 0;
+    padding: 0;
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .bicycles__switch-list {
+        display: flex;
+        width: 24px;
+        align-items: start;
+    }
+}

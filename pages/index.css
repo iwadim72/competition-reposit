@@ -26,10 +26,15 @@
 @import url(../blocks/bicycles/__title/bicycles__title.css);
 @import url(../blocks/bicycles/__style/bicycles__style.css);
 @import url(../blocks/bicycles/__style/_active/bicycles__style_active.css);
+@import url(../blocks/bicycles/__mobile-form/bicycles__mobile-form.css);
+@import url(../blocks/bicycles/__select/bicycles__select.css);
 @import url(../blocks/bicycles/__list/bicycles__list.css);
 @import url(../blocks/bicycles/__list-item/bicycles__list-item.css);
 @import url(../blocks/bicycles/__photo/bicycles__photo.css);
 @import url(../blocks/bicycles/__name/bicycles__name.css);
+@import url(../blocks/bicycles/__switch-list/bicycles__switch-list.css);
+@import url(../blocks/bicycles/__switch/bicycles__switch.css);
+@import url(../blocks/bicycles/__switch/_type/bicycles__switch_type_active.css);
 @import url(../blocks/training/training.css);
 @import url(../blocks/training/__info/training__info.css);
 @import url(../blocks/training/__heading/training__heading.css);
