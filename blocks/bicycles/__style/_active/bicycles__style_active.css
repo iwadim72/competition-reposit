@@ -1,4 +1,9 @@
 .bicycles__style_active {
 	color: #FFFFFF;
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+.bicycles__style_active:hover {
 	opacity: 0.65;
 }

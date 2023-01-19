@@ -4,3 +4,16 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+    .intro__info-container {
+        width: 50%;
+        margin: 40px 0 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .intro__info-container {
+        width: 100%;
+    }
+}
