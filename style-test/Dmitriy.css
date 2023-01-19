@@ -1,45 +1,80 @@
-.highway {
-	margin: 0 0 0 auto;
-	width: 1320px;
+.training {
+	width: 83.3333%;
+	margin: 0 auto 120px auto;
+	display: flex;
 }
 
-
-.footer {
-	width: 83.333%;
-	margin: 0 auto 60px auto;
+@media screen and (min-width: 1440px) {
+	.training {
+		width: 1200px;
+	}
 }
 
-.footer__copyright {
-	color: #CFCFCF;
-	font-weight: 600;
-	font-size: 14px;
-	padding: 0;
-	margin: 0;
+.training__info {
+	width: 460px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: 11.1111%;
 }
 
-.contacts {
-	margin: 80px auto 100px 8.3333%;
+@media screen and (min-width: 1440px) {
+	.training__info {
+		margin-right: 160px;
+	}
 }
 
-.contacts__calling {
-	width: 229px;
-	font-weight: 600;
-	font-size: 24px;
-	line-height: 32px;
+.training__heading {
 	padding: 0;
 	margin: 0 0 50px 0;
+	font-weight: 700;
+	font-size: 55px;
+	line-height: 60px;
+	letter-spacing: -0.5px;
+	text-rendering: optimizeLegibility;
 }
 
-.contacts__email {
-	width: 360px;
-	height: 50px;
-	font-weight: 500;
-	font-size: 13px;
+.training__text {
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
 	line-height: 28px;
-	background-color: #2f2f2f;
-	border: 1px solid rgba(125, 125, 125, 0.5);
-	border-radius: 4px;
+	color: #E5E5E5;
+	opacity: 0.7;
+}
+
+.training__brands {
+	display: flex;
+}
+
+.training__brand {
+	margin: 0 30px 0 0;
+	padding: 0;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
 	color: #fff;
-	padding: 11px 0 11px 20px;
-	box-sizing: border-box;
+	text-decoration: none;
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+.training__brand:hover{
+	opacity: 0.65
+}
+
+.training__brand:last-of-type {
+	margin-right: 0;
+}
+
+.training__image {
+	width: 40.277vw;
+	object-fit: contain;
+	object-position: center;
+}
+
+@media screen and (min-width: 1440px) {
+	.training__image {
+		width: 580px;
+	}
 }

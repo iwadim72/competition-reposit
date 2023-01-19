@@ -46,46 +46,55 @@
 			<div class="bicycles__container">
 				<h2 class="bicycles__title">Велосипеды</h2>
 				<nav class="bicycles__styles">
-					<a class="bicycles__style bicycles__style_type_active" href="">Шоссе</a>
+					<a class="bicycles__style bicycles__style_active" href="">Шоссе</a>
 					<a class="bicycles__style" href="">Грэвел</a>
 					<a class="bicycles__style" href="">ТТ</a>
 				</nav>
 			</div>
 			<ul class="bicycles__list">
 				<li class="bicycles__list-item">
-					<img class="bicycles__photo" src="./images/bicycle-1.png">
-					<p class="bicycles__name"></p>
+					<a href="#" class="bicycles__buy"><img class="bicycles__photo" src="./images/bicycle-1.png"></a>
+					<p class="bicycles__name">Cervelo Caledonia-5</p>
 				</li>
 				<li class="bicycles__list-item">
-					<img class="bicycles__photo" src="./images/bicycle-2.png">
-					<p class="bicycles__name"></p>
+					<a href="#" class="bicycles__buy"><img class="bicycles__photo" src="./images/bicycle-2.png"></a>
+					<p class="bicycles__name">Cannondale Systemsix Himod</p>
 				</li>
 				<li class="bicycles__list-item">
-					<img class="bicycles__photo" src="./images/bicycle-3.png">
-					<p class="bicycles__name"></p>
+					<a href="#" class="bicycles__buy"><img class="bicycles__photo" src="./images/bicycle-3.png"></a>
+					<p class="bicycles__name">Trek Domane SL-7</p>
 				</li>
 			</ul>
 		</section>
 		<section class="training">
 			<div class="training__info">
-				<h2 class="training__heading">Тренировки</h2>
-				<p class="training__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+				<div class="training__introduction">
+					<h2 class="training__heading">Тренировки</h2>
+					<p class="training__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать
+						эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+				</div>
 				<div class="training__brands">
-					<p class="training__brand">Strava</p>
-					<p class="training__brand">Komoot</p>
+					<a class="training__brand" href="#">Strava</a>
+					<a class="training__brand" href="#">Komoot</a>
 				</div>
 			</div>
-			<img src="./images/training/Placeholder.jpg" alt="поворот дороги">
+			<img class="training__image" src="./images/training/Placeholder.jpg" alt="поворот дороги">
 		</section>
 		<section class="contacts">
-			<h3 class="contacts__calling">Подпишитесь на рассылку —</h3>
-			<form action="#" name="contacts" class="contacts__form">
-				<input class="contacts__email" type="text" placeholder="Ваш e-mail">
-			</form>
+			<div class="contacts__container">
+				<h2 class="contacts__calling">Подпишитесь на рассылку —</h2>
+				<form action="#" name="contacts" class="contacts__form">
+					<input class="contacts__email" type="email" placeholder="Ваш e-mail">
+				</form>
+			</div>
 		</section>
 	</main>
 	<footer class="footer">
-		<p class="footer__copyright">&copy; Road Club 2022</p>
+		<div class="footer__container">
+			<p class="footer__copyright">
+				&copy; Road Club 2022
+			</p>
+		</div>
 	</footer>
 </body>
 
