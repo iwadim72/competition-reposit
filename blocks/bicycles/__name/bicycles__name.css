@@ -1,7 +1,26 @@
 .bicycles__name {
-	font-weight: 600;
-	font-size: 18px;
-	line-height: 22px;
-	margin: 20px 0 0 0;
-	padding: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 20px 0 0 0;
+		padding: 0;
+}
+
+@media screen and (max-width:768px) {
+  .bicycles__name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .bicycles__name {
+    font-size: 14px;
+    line-height: 28px;
+    color: #151515;
+    position: absolute;
+    margin: 0;
+    bottom: 16px;
+    left: calc((100% - 140px) / 2);
+  }
 }
