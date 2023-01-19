@@ -1,6 +1,7 @@
 .bicycles {
 	margin: 0 auto 60px auto;
 	padding-top: 60px;
+	position: relative;
 }
 
 @media screen and (min-width: 1440px) {
@@ -18,5 +19,13 @@
 @media screen and (max-width: 576px) {
 	.bicycles {
 		padding-top: 80px;
+	}
+
+	.bicycles::before {
+		content: '';
+		position: absolute;
+		top: 40px;
+		width: 100%;
+		border-bottom: 1px solid #E3E3E3;
 	}
 }
