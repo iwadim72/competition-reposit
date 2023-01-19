@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="./pages/index.css">
 	<link rel="stylesheet" href="./style-test/Dmitriy.css">
 	<link rel="stylesheet" href="./style-test/Vadim.css">
-	<title>competition</title>
+	<title>Соревнование</title>
 </head>
 
 <body class="body">
@@ -22,13 +22,13 @@
 		<section class="lead"></section>
 		<section class="intro">
 			<img class="intro__image" alt="Велосипедист в горах" src="./images/intro.png">
-			<div class="intro__info-container">
-				<h2 class="intro__info">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
+			<article class="intro__info-container">
+				<blockquote class="intro__info">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</blockquote>
 				<div>
 					<p class="intro__author">Эдди Меркс</p>
 					<p class="intro__author-description">Велогонщик</p>
 				</div>
-			</div>
+			</article>
 		</section>
 		<section class="highway">
 			<h2 class="highway__title">Шоссе</h2>
@@ -54,47 +54,43 @@
 			<ul class="bicycles__list">
 				<li class="bicycles__list-item">
 					<a href="#" class="bicycles__buy"><img class="bicycles__photo" src="./images/bicycle-1.png"></a>
-					<p class="bicycles__name">Cervelo Caledonia-5</p>
+					<p class="bicycles__name" lang="en">Cervelo Caledonia-5</p>
 				</li>
 				<li class="bicycles__list-item">
 					<a href="#" class="bicycles__buy"><img class="bicycles__photo" src="./images/bicycle-2.png"></a>
-					<p class="bicycles__name">Cannondale Systemsix Himod</p>
+					<p class="bicycles__name" lang="en">Cannondale Systemsix Himod</p>
 				</li>
 				<li class="bicycles__list-item">
 					<a href="#" class="bicycles__buy"><img class="bicycles__photo" src="./images/bicycle-3.png"></a>
-					<p class="bicycles__name">Trek Domane SL-7</p>
+					<p class="bicycles__name" lang="en">Trek Domane SL-7</p>
 				</li>
 			</ul>
 		</section>
 		<section class="training">
-			<div class="training__info">
+			<article class="training__info">
 				<div class="training__introduction">
 					<h2 class="training__heading">Тренировки</h2>
 					<p class="training__text">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать
 						эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
 				</div>
-				<div class="training__brands">
-					<a class="training__brand" href="#">Strava</a>
-					<a class="training__brand" href="#">Komoot</a>
-				</div>
-			</div>
+				<nav class="training__brands">
+					<a class="training__brand" href="#" lang="en">Strava</a>
+					<a class="training__brand" href="#" lang="en">Komoot</a>
+				</nav>
+			</article>
 			<img class="training__image" src="./images/training/Placeholder.jpg" alt="поворот дороги">
-		</section>
-		<section class="contacts">
-			<div class="contacts__container">
-				<h2 class="contacts__calling">Подпишитесь на рассылку —</h2>
-				<form action="#" name="contacts" class="contacts__form">
-					<input class="contacts__email" type="email" placeholder="Ваш e-mail">
-				</form>
-			</div>
 		</section>
 	</main>
 	<footer class="footer">
-		<div class="footer__container">
-			<p class="footer__copyright">
-				&copy; Road Club 2022
-			</p>
-		</div>
+			<div class="footer__container">
+				<h2 class="footer__contacts-calling">Подпишитесь на рассылку —</h2>
+				<form action="#" name="contacts" class="footer__contacts-form">
+					<input class="footer__contacts-email" type="email" placeholder="Ваш e-mail">
+				</form>
+				<p class="footer__copyright" lang="en">
+					&copy; Road Club 2022
+				</p>
+			</div>
 	</footer>
 </body>
 

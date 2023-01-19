@@ -1,4 +1,4 @@
-.contacts__email {
+.footer__contacts-email {
 	width: 360px;
 	height: 50px;
 	font-weight: 500;
@@ -16,6 +16,6 @@
 	cursor: pointer;
 }
 
-.contacts__email:hover{
+.footer__contacts-email:hover{
 	opacity: 1;
 }
