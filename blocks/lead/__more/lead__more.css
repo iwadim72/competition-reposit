@@ -29,3 +29,9 @@
 .lead__more:hover:before {
 	width: 100%;
 }
+
+@media screen and (max-width: 576px) {
+	.lead__more {
+		width: 100%;
+	}
+}
