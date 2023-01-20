@@ -9,6 +9,10 @@
 	transition: opacity 0.5s ease;
 }
 
+.bicycles__style:first-of-type {
+	margin-right: 30px;
+}
+
 .bicycles__style:hover {
 	opacity: 0.5;
 }
