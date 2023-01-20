@@ -1,5 +1,5 @@
 .header__nav {
-	margin: 24px 0 24px auto;
+	margin: 28px 0 28px auto;
 	width: 408px;
 }
 
@@ -11,13 +11,6 @@
 
 @media screen and (max-width: 1440px) {
 	.header__nav {
-		margin-top: 28px;
-		margin-right: 5.625vw;
-		margin-bottom: 30px;
-		display: none;
-	}
-	.header__nav::after {
-		content: '';
-		
+
 	}
 }
