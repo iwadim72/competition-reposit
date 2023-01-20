@@ -10,12 +10,19 @@
 	}
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
 	.lead__image {
 		position: absolute;
-		top: 120px;
+		top: 124px;
 		right: 0;
 		z-index: -1;
+		width: 45vw;
+	}
+}
+
+@media screen and (max-width:576px) {
+	.lead__image {
 		width: 79.375vw;
+		top: 234px;
 	}
 }
