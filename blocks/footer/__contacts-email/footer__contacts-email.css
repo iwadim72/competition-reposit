@@ -31,3 +31,10 @@
 .footer__contacts-email:focus:-ms-input-placeholder {
 	color: transparent;
 }
+
+@media screen and (max-width: 576px) {
+	.footer__contacts-email {
+		width: 284px;
+		height: 50px;
+	}
+}

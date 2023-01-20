@@ -15,5 +15,14 @@
 @media screen and (max-width: 576px) {
 	.training {
 		padding-top: 80px;
+		margin-bottom: 60px;
+	}
+
+	.training::before {
+		content: '';
+		position: absolute;
+		top: 40px;
+		width: 100%;
+		border-bottom: 1px solid #E3E3E3;
 	}
 }

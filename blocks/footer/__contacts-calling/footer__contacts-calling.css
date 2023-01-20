@@ -6,3 +6,10 @@
 	padding: 80px 0 0 0;
 	margin: 0 0 50px 0;
 }
+
+@media screen and (max-width: 576px) {
+	.footer__contacts-calling {
+		padding-top: 60px;
+		margin-bottom: 40px;
+	}
+}
