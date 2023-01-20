@@ -24,3 +24,10 @@
 		line-height: 24px;
 	}
 }
+
+@media screen and (max-width: 576px) {
+	.training__brand {
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
