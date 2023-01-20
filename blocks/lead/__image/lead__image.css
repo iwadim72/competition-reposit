@@ -1,7 +1,8 @@
 .lead__image {
-	object-fit: contain;
+	object-fit: cover;
 	object-position: center;
 	width: 42.361vw;
+	align-self: flex-start;
 }
 
 @media screen and (min-width:1440px) {
