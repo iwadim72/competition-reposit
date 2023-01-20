@@ -15,3 +15,24 @@
 		height: 430px;
 	}
 }
+
+@media screen and (max-width: 992px) {
+	.lead__sticky-container {
+		right: 20vw;
+		left: 40vw;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.lead__sticky-container {
+		right: auto;
+		top: 200px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.lead__sticky-container {
+		left: 0;
+		top: 357.13px;
+	}
+}
