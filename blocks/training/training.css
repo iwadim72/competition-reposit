@@ -1,12 +1,19 @@
 .training {
-	width: 83.3333%;
-	margin: 0 auto 120px auto;
+	width: 100%;
+	margin: 0 auto 120px;
 	padding-top: 150px;
 	display: flex;
+	position: relative;
 }
 
 @media screen and (min-width: 1440px) {
 	.training {
 		width: 1200px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.training {
+		padding-top: 80px;
 	}
 }

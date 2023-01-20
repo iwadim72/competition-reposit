@@ -9,3 +9,17 @@
 		width: 580px;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.training__image {
+		position: absolute;
+		top: 28%;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.training__image {
+		top: 28%;
+	}
+}

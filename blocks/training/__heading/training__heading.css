@@ -7,3 +7,17 @@
 	letter-spacing: -0.5px;
 	text-rendering: optimizeLegibility;
 }
+
+@media screen and (max-width: 992px) {
+	.training__heading {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.training__heading {
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 40px;
+	}
+}

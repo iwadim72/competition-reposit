@@ -1,3 +1,9 @@
 .training__brands {
 	display: flex;
 }
+
+@media screen and (max-width: 768px) {
+	.training__brands {
+		margin-top: 40px;
+	}
+}

@@ -49,6 +49,7 @@
 @import url(../blocks/bicycles/__switch/_type/bicycles__switch_type_active.css);
 @import url(../blocks/training/training.css);
 @import url(../blocks/training/__info/training__info.css);
+@import url(../blocks/training/__introduction/training__introduction.css);
 @import url(../blocks/training/__heading/training__heading.css);
 @import url(../blocks/training/__text/training__text.css);
 @import url(../blocks/training/__brands/training__brands.css);

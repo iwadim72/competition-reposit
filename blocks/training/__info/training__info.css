@@ -11,3 +11,9 @@
 		margin-right: 160px;
 	}
 }
+
+@media screen and (max-width: 992px) {
+	.training__info {
+		margin-right: 6.5%;
+	}
+}
