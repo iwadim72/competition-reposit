@@ -10,6 +10,7 @@
 	transition: background-color 1s ease;
 	position: relative;
 	display: flex;
+	cursor: pointer;
 }
 
 .lead__more:before {
