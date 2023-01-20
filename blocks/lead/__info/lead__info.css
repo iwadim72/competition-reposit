@@ -4,6 +4,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	margin-right: 17.36vw;
+	align-self: flex-start;
 }
 
 @media screen and (min-width: 1440px) {
